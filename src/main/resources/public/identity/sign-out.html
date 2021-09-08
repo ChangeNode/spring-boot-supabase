@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" layout:decorate="~{layout.html}" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="/assets/identity/identity.js"></script>
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <title>Sign Out</title>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            supabase.auth.signOut();
+        });
+    </script>
+</head>
+<body>
+<section layout:fragment="content">
+    <div class='container-sm d-flex flex-wrap justify-content-center'>
+        <div class="section text-center w-75">
+            <h1>Bye!</h1>
+        </div>
+        <div class='section text-center w-75'>
+            <p><a href="/identity/sign-in.html" th:href="@{/public/sign-in}">Sign In</a></p>
+        </div>
+    </div>
+</section>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

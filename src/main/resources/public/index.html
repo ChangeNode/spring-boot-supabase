@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" layout:decorate="~{layout.html}" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="/assets/identity/identity.js"></script>
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <title>Home</title>
+</head>
+<body>
+<section layout:fragment="content">
+    <div class='align-items-center container justify-content-center text-center w-75'>
+        <div class="section">
+            <div sec:authorize="isAuthenticated()">
+                <div th:text="${#authentication.name}">
+                    User Name
+                </div>
+                <div></div>
+                <a href="/identity/sign-out.html" th:href="@{/public/sign-out}">Sign Out</a>
+            </div>
+            <a href="/secure.html" th:href="@{/secure}">Profile</a>
+        </div>
+        <div sec:authorize="!isAuthenticated()">
+            <a href="/identity/sign-in.html" th:href="@{/public/sign-in}">Sign In</a> | <a
+                href="/identity/create-account.html" th:href="@{/public/create-account}">Create Account</a>
+        </div>
+        <p>Welcome!</p>
+    </div>
+</section>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

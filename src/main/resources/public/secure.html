@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" layout:decorate="~{layout.html}" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+>
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="/assets/identity/identity.js"></script>
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <title>Profile</title>
+</head>
+<body>
+<section layout:fragment="content">
+    <div class='container'>
+        <div class="section">
+            <h1>User Details</h1>
+        </div>
+        <div class="text-end"><a href="identity/update-password.html" th:href="@{/public/update-password}">Update
+            Password</a></div>
+        <div>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <td>User Property</td>
+                    <td>Value</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Avatar URL</td>
+                    <td th:text="${user.avatarUrl}"></td>
+                </tr>
+                <tr>
+                    <td>Confirmed At</td>
+                    <td th:text="${user.confirmedAt}"></td>
+                </tr>
+                <tr>
+                    <td>Created At</td>
+                    <td th:text="${user.createdAt}"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td th:text="${user.email}"></td>
+                </tr>
+                <tr>
+                    <td>Email Confirmed At</td>
+                    <td th:text="${user.emailConfirmedAt}"></td>
+                </tr>
+                <tr>
+                    <td>Full Name</td>
+                    <td th:text="${user.fullName}"></td>
+                </tr>
+                <tr>
+                    <td>User ID</td>
+                    <td th:text="${user.id}"></td>
+                </tr>
+                <tr>
+                    <td>Last Sign In At</td>
+                    <td th:text="${user.lastSignInAt}"></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td th:text="${user.name}"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td th:text="${user.phone}"></td>
+                </tr>
+                <tr>
+                    <td>Provider</td>
+                    <td th:text="${user.provider}"></td>
+                </tr>
+                <tr>
+                    <td>Role</td>
+                    <td th:text="${user.role}"></td>
+                </tr>
+                <tr>
+                    <td>Updated At</td>
+                    <td th:text="${user.updatedAt}"></td>
+                </tr>
+                <tr>
+                    <td>Enabled</td>
+                    <td th:text="${user.isEnabled}"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,2096 @@
+{
+  "activated": [
+    {
+      "type": "system",
+      "family": "Arial, Helvetica, sans-serif",
+      "weights": [],
+      "styles": [],
+      "category": "sans",
+      "usage": "all"
+    },
+    {
+      "type": "system",
+      "family": "\"Arial Black\", Gadget, sans-serif",
+      "weights": [],
+      "styles": [],
+      "category": "sans",
+      "usage": "headings"
+    },
+    {
+      "type": "system",
+      "family": "Impact, Charcoal, sans-serif",
+      "weights": [],
+      "styles": [],
+      "category": "sans",
+      "usage": "headings"
+    },
+    {
+      "type": "system",
+      "family": "\"Lucida Sans Unicode\", \"Lucida Grande\", sans-serif",
+      "weights": [],
+      "styles": [],
+      "category": "sans",
+      "usage": "all"
+    },
+    {
+      "type": "system",
+      "family": "Tahoma, Geneva, sans-serif",
+      "weights": [],
+      "styles": [],
+      "category": "sans",
+      "usage": "all"
+    },
+    {
+      "type": "system",
+      "family": "Verdana, Geneva, sans-serif",
+      "weights": [],
+      "styles": [],
+      "category": "sans",
+      "usage": "all"
+    },
+    {
+      "type": "system",
+      "family": "\"Times New Roman\", Times, serif",
+      "weights": [],
+      "styles": [],
+      "category": "serif",
+      "usage": "all"
+    },
+    {
+      "type": "system",
+      "family": "\"Palatino Linotype\", \"Book Antiqua\", Palatino, serif",
+      "weights": [],
+      "styles": [],
+      "category": "serif",
+      "usage": "all"
+    },
+    {
+      "type": "system",
+      "family": "Georgia, serif",
+      "weights": [],
+      "styles": [],
+      "category": "serif",
+      "usage": "all"
+    },
+    {
+      "type": "system",
+      "family": "\"Courier New\", Courier, monospace",
+      "weights": [],
+      "styles": [],
+      "category": "mono",
+      "usage": "all"
+    },
+    {
+      "type": "system",
+      "family": "\"Lucida Console\", Monaco, monospace",
+      "weights": [],
+      "styles": [],
+      "category": "mono",
+      "usage": "all"
+    },
+    {
+      "type": "google",
+      "family": "Abril Fatface",
+      "weights": [],
+      "styles": [],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Abril+Fatface",
+      "usage": "h1",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Alegreya",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Alegreya:400,500,600,700,800,900",
+      "usage": "all",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Arima Madurai",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Arima+Madurai:100,200,300,400,500,700,800,900",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Arvo",
+      "weights": [
+        "400",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Arvo:400,700",
+      "usage": "h1",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Asap",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Asap:400,500,600,700",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "BioRhyme",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "700",
+        "800"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=BioRhyme:200,300,400,700,800",
+      "usage": "all",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Cabin",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Cabin:400,500,600,700",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Catamaran",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Caveat",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Caveat:400,500,600,700",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Caveat Brush",
+      "weights": [],
+      "styles": [],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Caveat+Brush",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Cormorant Garamond",
+      "weights": [
+        "300",
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500,600,700",
+      "usage": "h1",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Dancing Script",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "DM Sans",
+      "weights": [
+        "400",
+        "500",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=DM+Sans:400,500,700",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Dosis",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Expletus Sans",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Expletus+Sans:400,500,600,700",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Fira Sans",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Fraunces",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Fraunces:100,200,300,400,500,600,700,800,900",
+      "usage": "all",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "IBM Plex Serif",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100,200,300,400,500,600,700",
+      "usage": "all",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Inter",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Josefin Sans",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Josefin+Sans:200,300,400,500,600,700",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Jost",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Lato",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Libre Baskerville",
+      "weights": [
+        "400",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700",
+      "usage": "headings",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Lora",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Lora:400,500,600,700",
+      "usage": "h1",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Kalam",
+      "weights": [
+        "300",
+        "400",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Kalam:300,400,700",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Kufam",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Kufam:400,500,600,700,800,900",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Mali",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Mali:200,300,400,500,600,700",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Martel",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Martel:200,300,400,600,700,800,900",
+      "usage": "headings",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Maven Pro",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Maven+Pro:400,500,600,700,800,900",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Montserrat",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Mulish",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Mulish:200,300,400,500,600,700,800,900",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Nunito Sans",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900",
+      "usage": "text",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Open Sans",
+      "weights": [
+        "300",
+        "400",
+        "600",
+        "700",
+        "800"
+      ],
+      "styles": [
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Oswald",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Overlock",
+      "weights": [
+        "400",
+        "700",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Overlock:400,700,900",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Oxanium",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Oxanium:200,300,400,500,600,700,800",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Permanent Marker",
+      "weights": [
+        "400"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Permanent+Marker:400",
+      "usage": "h1",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Playfair Display",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Poppins",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Prompt",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,600,700,800,900",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Proza Libre",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700",
+        "800"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Proza+Libre:400,500,600,700,800",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Quicksand",
+      "weights": [
+        "300",
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Rakkas",
+      "weights": [
+        "400"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Rakkas:400",
+      "usage": "h1",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Raleway",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Rokkitt",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Rokkitt:100,200,300,400,500,600,700,800,900",
+      "usage": "h1",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Ruda",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Ruda:400,500,600,700,800,900",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Sansita",
+      "weights": [
+        "400",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Sansita:400,700,800,900",
+      "usage": "headings",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Sansita Swashed",
+      "weights": [
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Sansita+Swashed:300,400,500,600,700,800,900",
+      "usage": "h1",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Sora",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Sora:100,200,300,400,500,600,700,800",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Space Grotesk",
+      "weights": [
+        "300",
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600,700",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Spectral",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Spectral:200,300,400,500,600,700,800",
+      "usage": "headings",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Tillana",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700",
+        "800"
+      ],
+      "styles": [
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        }
+      ],
+      "category": "display",
+      "url": "https://fonts.googleapis.com/css?family=Tillana:400,500,600,700,800",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Titillium Web",
+      "weights": [
+        "200",
+        "300",
+        "400",
+        "600",
+        "700",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Trirong",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Trirong:100,200,300,400,500,600,700,800,900",
+      "usage": "h1",
+      "fallback": "serif"
+    },
+    {
+      "type": "google",
+      "family": "Ubuntu",
+      "weights": [
+        "300",
+        "400",
+        "500",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700",
+      "usage": "all",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Work Sans",
+      "weights": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "styles": [
+        {
+          "weight": "100"
+        },
+        {
+          "weight": "200"
+        },
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        },
+        {
+          "weight": "800"
+        },
+        {
+          "weight": "900"
+        }
+      ],
+      "category": "sans",
+      "url": "https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900",
+      "usage": "headings",
+      "fallback": "sans-serif"
+    },
+    {
+      "type": "google",
+      "family": "Zilla Slab",
+      "weights": [
+        "300",
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "styles": [
+        {
+          "weight": "300"
+        },
+        {
+          "weight": "400"
+        },
+        {
+          "weight": "500"
+        },
+        {
+          "weight": "600"
+        },
+        {
+          "weight": "700"
+        }
+      ],
+      "category": "serif",
+      "url": "https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,500,600,700",
+      "usage": "all",
+      "fallback": "serif"
+    }
+  ]
+}

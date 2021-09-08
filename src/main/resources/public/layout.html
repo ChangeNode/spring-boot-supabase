@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <title>Company</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!--HTMX-->
+    <script th:src="@{/webjars/htmx.org/dist/htmx.min.js}" type="text/javascript"></script>
+    <!-- Hyperscript for fancier stuff -->
+    <script th:src="@{/webjars/hyperscript.org/dist/_hyperscript.js}" type="text/javascript"></script>
+    <link th:href="@{/webjars/bootstrap-icons/font/bootstrap-icons.css}" th:rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <style>.htmx-indicator {
+        position: fixed;
+        top: 20px;
+        right: 50%;
+        height: 60px;
+        width: 60px;
+        border-radius: 100px;
+        opacity: 0;
+        transition: opacity 500ms ease-in;
+    }
+
+    .htmx-request .htmx-indicator {
+        opacity: 1;
+    }</style>
+    <link href="/blocks.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- User Messages -->
+<div class="fixed-top position-fixed sticky-top d-flex justify-content-center align-items-center w-100 py-3">
+    <div aria-atomic="true" aria-live="assertive" class="toast align-items-center" id="toast" role="alert">
+        <div class="d-flex">
+            <div class="toast-body" id="toast-body">
+                Toast Body
+            </div>
+            <button aria-label="Close" class="btn-close me-2 m-auto" data-bs-dismiss="toast" type="button"></button>
+        </div>
+    </div>
+</div>
+<!-- HTMX Loading Indicator -->
+<div class="fixed-top htmx-indicator position-fixed sticky-top">
+    <img alt="Loading Indicator" height="44" src="/assets/svg/loader.svg" width="44"/>
+</div>
+<nav class="navbar navbar-dark navbar-expand py-4 text-uppercase">
+    <div class="container">
+        <a class="align-top navbar-brand" href="/">Company</a>
+        <ul class="ms-auto navbar-nav">
+            <li class="ms-auto nav-item dropdown" sec:authorize="isAuthenticated()"
+                th:if="${not #strings.contains( #request.requestURI,'sign-out')}">
+                <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                   id="navbarDropdownMenuLink" role="button">
+                    <img alt="Your Avatar" class="d-none d-sm-inline" height="64"
+                         src="/assets/svg/person-outline.svg"
+                         style="border-radius:50%"
+                         th:src="${@supabaseUser.avatarUrl}"
+                         width="64"/>
+                    <img alt="Identity Provider"
+                         class="d-none d-sm-inline" height="24"
+                         src="assets/svg/logo-github.svg"
+                         style="border-radius:50%; background-color: black; position: absolute; bottom: 8px; right: 20px"
+                         th:if="${@supabaseUser.provider != 'email'}"
+                         th:src="${'/assets/svg/logo-'+@supabaseUser.provider+'.svg'}"
+                         width="24"/>
+                    <span class="d-inline d-sm-none text-truncate dropdown-item-text"> <span
+                            th:text="${@supabaseUser.username}">Username</span> </span>
+                </a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-end">
+                    <div><span class="d-none d-sm-inline text-truncate dropdown-item-text"
+                               th:text="${@supabaseUser.username}">Username</span>
+                    </div>
+                    <a class="dropdown-item" href="/identity/sign-out.html" th:href="@{/public/sign-out}">Sign Out</a>
+                    <a class="dropdown-item" href="/secure.html" th:href="@{/secure}">Profile</a>
+                </div>
+            </li>
+        </ul>
+        <div sec:authorize="!isAuthenticated()">
+            <a th:href="@{/public/sign-in}">Sign In</a> |
+            <a th:href="@{/public/create-account}">Create Account</a>
+        </div>
+    </div>
+</nav>
+<section layout:fragment="content">
+    <p>Page content goes here</p>
+</section>
+<footer class="pb-3 pt-3 small">
+    <div class="container">
+        <div class="align-items-center row">
+            <div class="col-md pb-2 pt-2">
+                <p class="mb-0">&copy; 2021 - Company Name</p>
+            </div>
+            <div class="col-md-auto pb-2 pt-2">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Use</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>

@@ -1,0 +1,54 @@
+supabase:
+  url: ${SUPABASE_URL}
+  anon: ${SUPABASE_ANON_KEY}
+  jwt_secret: ${SUPABASE_JWT_SIGNER}
+spring:
+  application:
+    name: Demo
+  main:
+    banner-mode: "off"
+  datasource:
+    url: ${SUPABASE_DATABASE_URL}
+    username: ${SUPABASE_DATABASE_USER}
+    password: ${SUPABASE_DATABASE_PASSWORD}
+    driverClassName: org.postgresql.Driver
+  thymeleaf:
+    prefix: classpath:/public/
+  jpa:
+    open-in-view: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        ddl-auto: validate
+        jdbc:
+          lob:
+            non_contextual_creation: true
+      #show-sql: true
+server:
+  error:
+    whitelabel:
+      enabled: true
+    include-stacktrace: always
+  address: localhost
+  port: ${PORT:8080}
+logging:
+  pattern:
+    console: "%d{HH:mm:ss.SSS} %highlight(%-5level) %yellow(%logger{40}.%M\\(%class{0}.java:%line\\)) - %msg%throwable%n"
+  level:
+    root: WARN
+  org:
+    hibernate:
+      dialect: INFO
+    springframework:
+      boot:
+        test:
+          context:
+            SpringBootTestContextBootstrapper: WARN
+      test:
+        context:
+          support:
+            AbstractContextLoader: OFF
+            AnnotationConfigContextLoaderUtils: OFF
+    zaxxer:
+      hikari:
+        HikariDataSource: INFO

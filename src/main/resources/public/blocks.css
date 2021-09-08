@@ -1,0 +1,172 @@
+.proportions-box-square {
+    position: relative;
+    padding: 100% 0 0 !important;
+    height: 0;
+}
+
+.proportions-box-content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.background-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.background-left-top {
+    background-position: left top;
+}
+
+.background-left-center {
+    background-position: left center;
+}
+
+.background-left-bottom {
+    background-position: left bottom;
+}
+
+.background-right-top {
+    background-position: right top;
+}
+
+.background-right-center {
+    background-position: right center;
+}
+
+.background-right-bottom {
+    background-position: right bottom;
+}
+
+.background-center-top {
+    background-position: center top;
+}
+
+.background-center-center {
+    background-position: center center;
+}
+
+.background-center-bottom {
+    background-position: center bottom;
+}
+
+.border-width-1 {
+    border-width: 1px !important;
+}
+
+.border-width-2 {
+    border-width: 2px !important;
+}
+
+.border-width-3 {
+    border-width: 3px !important;
+}
+
+.border-width-4 {
+    border-width: 4px !important;
+}
+
+.border-width-6 {
+    border-width: 6px !important;
+}
+
+.border-width-8 {
+    border-width: 8px !important;
+}
+
+.border-width-12 {
+    border-width: 12px !important;
+}
+
+.border-width-16 {
+    border-width: 16px !important;
+}
+
+.border-width-24 {
+    border-width: 24px !important;
+}
+
+.image-fit {
+    object-fit: contain;
+    object-position: center center;
+}
+
+.image-fit-left-top {
+    object-position: left top;
+}
+
+.image-fit-left-center {
+    object-position: left center;
+}
+
+.image-fit-left-bottom {
+    object-position: left bottom;
+}
+
+.image-fit-right-top {
+    object-position: right top;
+}
+
+.image-fit-right-center {
+    object-position: right center;
+}
+
+.image-fit-right-bottom {
+    object-position: right bottom;
+}
+
+.image-fit-center-top {
+    object-position: center top;
+}
+
+.image-fit-center-center {
+    object-position: center center;
+}
+
+.image-fit-center-bottom {
+    object-position: center bottom;
+}
+
+.transition {
+    transition: all 0.25s ease-in;
+}
+
+.transition-slow {
+    transition: all 0.5s ease-in;
+}
+
+.transition-very-slow {
+    transition: all 1s ease-in;
+}
+
+.line-height-1 {
+    line-height: 1 !important;
+}
+
+.opacity-100 {
+    opacity: 1 !important;
+}
+
+.opacity-85 {
+    opacity: 0.85 !important;
+}
+
+.opacity-75 {
+    opacity: 0.75 !important;
+}
+
+.opacity-50 {
+    opacity: 0.50 !important;
+}
+
+.opacity-25 {
+    opacity: 0.25 !important;
+}
+
+.opacity-0 {
+    opacity: 0 !important;
+}
