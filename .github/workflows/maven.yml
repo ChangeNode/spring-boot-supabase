@@ -27,7 +27,7 @@ jobs:
       with:
         step: restore
     - name: Build with Maven
-      env: # Or as an environment variable        
+      env: # Pass GitHub Secrets to the job        
         SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         SUPABASE_DATABASE_PASSWORD: ${{ secrets.SUPABASE_DATABASE_PASSWORD }}
         SUPABASE_DATABASE_URL: ${{ secrets.SUPABASE_DATABASE_URL }}
