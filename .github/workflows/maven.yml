@@ -27,6 +27,13 @@ jobs:
       with:
         step: restore
     - name: Build with Maven
+      env: # Or as an environment variable        
+        SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        SUPABASE_DATABASE_PASSWORD: ${{ secrets.SUPABASE_DATABASE_PASSWORD }}
+        SUPABASE_DATABASE_URL: ${{ secrets.SUPABASE_DATABASE_URL }}
+        SUPABASE_DATABASE_USER: ${{ secrets.SUPABASE_DATABASE_USER }}
+        SUPABASE_JWT_SIGNER: ${{ secrets.SUPABASE_JWT_SIGNER }}
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}        
       run: mvn -Ph2 -B verify --file pom.xml
     - name: Save Maven cache
       uses: skjolber/maven-cache-github-action@v1
