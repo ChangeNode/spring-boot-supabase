@@ -258,6 +258,7 @@
                             org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor
                         </annotationProcessor>
                     </annotationProcessors>
+                    <release>17</release>
                 </configuration>
             </plugin>
         </plugins>
