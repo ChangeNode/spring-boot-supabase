@@ -239,6 +239,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.6.4</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -251,6 +252,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <annotationProcessors>
                         <!-- Will cause IntelliJ to recognize the additional-spring-configuration-metadata.json in applications.yaml -->
@@ -380,9 +382,6 @@
                             <jvmArguments>
                                 -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005
                             </jvmArguments>
-                            <!--                            <profiles>-->
-                            <!--                                <profile>h2</profile>-->
-                            <!--                            </profiles>-->
                         </configuration>
                     </plugin>
                 </plugins>
