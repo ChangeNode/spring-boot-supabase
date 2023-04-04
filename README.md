@@ -207,3 +207,30 @@ The following guides illustrate how to use some features concretely:
 * [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 
+### settings.xml
+
+In your user home directory .m2 directory, you can place your settings.xml
+file with an active profile to store your Supabase connection information.
+
+Here is a complete sample settings.xml configuration. Note that this configuration will
+add these setting values to all of your Maven projects - you may prefer to turn active
+by default to false and instead activate the profile for each project as needed.
+
+```xml
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  
+  <profile>
+    <id>supabase-settings</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <properties>
+      <supabase.database.url>jdbc:postgresql://db.PROJECTID.supabase.co/postgres</supabase.database.url>
+      <supabase.databasse.user>postgres</supabase.databasse.user>
+      <supabase.database.password>PASSWORD-YOU-USED-WITH-SUPABASE</supabase.database.password>
+      <supabase.url>https://PROJECTID.supabase.co</supabase.url>
+    </properties>
+  </profile>
+</settings>
+```

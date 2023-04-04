@@ -1,16 +1,16 @@
 supabase:
-  url: ${SUPABASE_URL}
-  anon: ${SUPABASE_ANON_KEY}
-  jwt_secret: ${SUPABASE_JWT_SIGNER}
+  url: @supabase.url@
+  anon: @supabase.anon.key@
+  jwt_secret: @supabase.jwt.signer@
 spring:
   application:
     name: Demo
   main:
     banner-mode: "off"
   datasource:
-    url: ${SUPABASE_DATABASE_URL}
-    username: ${SUPABASE_DATABASE_USER}
-    password: ${SUPABASE_DATABASE_PASSWORD}
+    url: @supabase.database.url@
+    username: @supabase.database.user@
+    password: @supbase.database.password@
     driverClassName: org.postgresql.Driver
   thymeleaf:
     prefix: classpath:/public/
